@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrado con CSS</title>
+    <style>
+     .cabeza{
+    border: 5px solid black;
+    width: 120px;
+    height: 40px;
+    background-color:lightsalmon;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+}
+.cara{
+    border: 5px solid black;
+    width: 100px;
+    height: 80px;
+    background-color:lightsalmon;
+    position: relative;
+    left: 20px; 
+    top: 0px;
+    bottom: 40px;
+    
+}
+.cuerpo{
+    border: 5px solid black;
+    width: 130px;
+    height: 290px;
+    background-color:lightsalmon;
+    position: relative;
+    left: 8px; 
+    top: 0px;
+    bottom: 40px;
+    border-radius: 4px;
+    
+}
+.ojitos{
+ display: flex;
+
+    
+}
+.ojo{
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    left: 6px;
+    position: relative;
+    border-radius: 2px;
+}
+.nariz{
+    border: 2px solid black;
+    width: 15px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+}
+.boca{
+    border: 2px solid black;
+    width: 60px;
+    height: 15px;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="cabeza"></div>
+    <div class="cara">
+        <div class="ojitos">
+            <div class="ojo"></div>
+            <div class="ojo"></div>
+        </div>
+        <div class="nariz"></div>
+        <div class="boca"></div>
+    </div>
+    <div class="cuerpo"></div>
+
+</body>
+</html>
